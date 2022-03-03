@@ -1,0 +1,166 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Mission Chinese Food",
+      "neighborhood": "Manhattan",
+      "photograph": "https://drive.google.com/uc?export=view&id=1Uk9CqJEQA4vmQxZbuamgwf2Gv3hihVHP",
+      "address": "171 E Broadway, New York, NY 10002",
+      "offer": "40% off"
+    },
+    {
+      "id": 2,
+      "name": "Emily",
+      "neighborhood": "Brooklyn",
+      "photograph": "https://drive.google.com/uc?export=view&id=1ihw8OGJbbcrsbWiBqKASd5rqBeotAXlX",
+      "address": "919 Fulton St, Brooklyn, NY 11238",
+      "offer": "10% off"
+    },
+    {
+      "id": 3,
+      "name": "Kang Ho Dong Baekjeong",
+      "neighborhood": "Manhattan",
+      "photograph": "https://drive.google.com/uc?export=view&id=1Myhw9ZrMLj8JxfnhIEHKfiRHbUIxgCwF",
+      "address": "1 E 32nd St, New York, NY 10016",
+      "offer": "20% off"
+    },
+    {
+      "id": 4,
+      "name": "Katz's Delicatessen",
+      "neighborhood": "Manhattan",
+      "photograph": "https://drive.google.com/uc?export=view&id=1NMXpLmH-s6EP1SQ8K8XLUDMMk6su1g5D",
+      "address": "205 E Houston St, New York, NY 10002",
+      "offer": "30% off"
+    }
+  ],
+  "foodItems": [
+    {
+      "foodName": "Chicken Burrito",
+      "id": 1,
+      "img": "https://drive.google.com/uc?export=view&id=1cFlIDOsb0M_1pqfWV0b8PmtxKTHuvEkI",
+      "foodType": "Burrito",
+      "protein": "chicken",
+      "calories": 975,
+      "price": 120
+    },
+    {
+      "foodName": "Steak Corn Tortilla Taco",
+      "id": 2,
+      "img": "https://drive.google.com/uc?export=view&id=1e4AAUR9hh8_nO7y_lXCd6xUBYjsn4f5w",
+      "foodType": "Taco",
+      "protein": "steak",
+      "calories": 620,
+      "price": 180
+    },
+    {
+      "foodName": "Carnitas Burrito",
+      "id": 3,
+      "img": "https://drive.google.com/uc?export=view&id=1gRj61-KEq_mAUVNU_jU59lCVftaaUrtG",
+      "foodType": "Burrito",
+      "protein": "carnitas",
+      "calories": 1005,
+      "price": 220
+    },
+    {
+      "foodName": "Barbacoa Burrito",
+      "id": 4,
+      "img": "https://drive.google.com/uc?export=view&id=1goZLrPiL6Kk8iHTVj2TobFBLLokOQAAh",
+      "foodType": "Burrito",
+      "protein": "barbacoa",
+      "calories": 965,
+      "price": 80
+    },
+    {
+      "foodName": "Chorizo Corn Tortilla Taco",
+      "id": 5,
+      "img": "https://drive.google.com/uc?export=view&id=1XwXiJX714fOdCPPWLkDBrmAfx-iVF3k2",
+      "foodType": "Taco",
+      "protein": "chorizo",
+      "calories": 770,
+      "price": 140
+    },
+    {
+      "foodName": "Sofritas Burrito",
+      "id": 6,
+      "img": "https://drive.google.com/uc?export=view&id=1GmEdxUoa33neLvdnrrbB_nS5p2w7GxeK",
+      "foodType": "Burrito",
+      "protein": "sofritas",
+      "calories": 945,
+      "price": 240
+    },
+    {
+      "foodName": "Carnitas Corn Tortilla Taco",
+      "id": 7,
+      "img": "https://drive.google.com/uc?export=view&id=19XJUtDZ_wbsopTwbqa6Cj1y498C2hpSb",
+      "foodType": "Taco",
+      "protein": "carnitas",
+      "calories": 680,
+      "price": 200
+    },
+    {
+      "foodName": "BBQ Chicken Flatbread",
+      "id": 8,
+      "img": "https://drive.google.com/uc?export=view&id=1nj50A1MGaeI8QnpKejw9zFdmLwBh7375",
+      "foodType": "Pizza",
+      "protein": "chicken",
+      "calories": 380,
+      "price": 400
+    }
+  ],
+  "cart": [
+    {
+      "foodName": "BBQ Chicken Flatbread",
+      "id": 8,
+      "img": "https://drive.google.com/uc?export=view&id=1nj50A1MGaeI8QnpKejw9zFdmLwBh7375",
+      "foodType": "Pizza",
+      "protein": "chicken",
+      "calories": 380,
+      "price": 400
+    },
+    {
+      "foodName": "Chicken Burrito",
+      "id": 96,
+      "img": "https://drive.google.com/uc?export=view&id=1cFlIDOsb0M_1pqfWV0b8PmtxKTHuvEkI",
+      "foodType": "Burrito",
+      "protein": "chicken",
+      "calories": 975,
+      "price": 120
+    },
+    {
+      "foodName": "Barbacoa Burrito",
+      "id": 73,
+      "img": "https://drive.google.com/uc?export=view&id=1goZLrPiL6Kk8iHTVj2TobFBLLokOQAAh",
+      "foodType": "Burrito",
+      "protein": "barbacoa",
+      "calories": 965,
+      "price": 80
+    },
+    {
+      "foodName": "Carnitas Burrito",
+      "id": 27,
+      "img": "https://drive.google.com/uc?export=view&id=1gRj61-KEq_mAUVNU_jU59lCVftaaUrtG",
+      "foodType": "Burrito",
+      "protein": "carnitas",
+      "calories": 1005,
+      "price": 220
+    },
+    {
+      "foodName": "BBQ Chicken Flatbread",
+      "id": 85,
+      "img": "https://drive.google.com/uc?export=view&id=1nj50A1MGaeI8QnpKejw9zFdmLwBh7375",
+      "foodType": "Pizza",
+      "protein": "chicken",
+      "calories": 380,
+      "price": 400
+    },
+    {
+      "foodName": "Carnitas Corn Tortilla Taco",
+      "id": 10,
+      "img": "https://drive.google.com/uc?export=view&id=19XJUtDZ_wbsopTwbqa6Cj1y498C2hpSb",
+      "foodType": "Taco",
+      "protein": "carnitas",
+      "calories": 680,
+      "price": 200
+    }
+  ]
+}
