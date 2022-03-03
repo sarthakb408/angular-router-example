@@ -1,0 +1,15 @@
+<div class="row container-fluid mt-3" >
+    <div class="col-sm-3" *ngFor="let r of receiveProduct">
+        <div class="card mt-3 ">
+            <div class="card-body" >
+                <img class="product-image" src="{{r.photograph}}" alt="">
+                <h5 class="card-title mt-3">{{r.name}}</h5>
+                <p class="card-text">{{r.neighborhood}}</p>
+                <p class="card-text">{{r.address}}</p>
+                <h5 class="card-text">{{r.offer}}</h5>
+                <a routerLink="/product-items" class="btn btn-primary">Explore</a>
+            </div>
+        </div>
+    </div>
+</div>
+

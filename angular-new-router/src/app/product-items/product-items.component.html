@@ -1,0 +1,15 @@
+<div class="row container-fluid mt-3" >
+    <div class="col-sm-3" *ngFor="let r of receiveFood">
+        <div class="card mt-3 ">
+            <div class="card-body" >
+                <img class="product-image" src="{{r.img}}" alt="">
+                <h5 class="card-title mt-3">{{r.id}}-{{r.foodName}}</h5>
+                <p class="card-text">{{r.foodType}}</p>
+                <p class="card-text">Protein: {{r.protein}}</p>
+                <p class="card-text">Calories: {{r.calories}}</p>
+                <h5 class="card-title mt-3">Rs.{{r.price}}/-</h5>
+                <button class="btn btn-primary" (click)="addtocart(r)" >Add Item</button>
+            </div>
+        </div>
+    </div>
+</div>
